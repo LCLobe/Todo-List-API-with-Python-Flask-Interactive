@@ -59,3 +59,7 @@ Y devolverá la lista de tareas o to-dos actualizada.
 ### DELETE /todos/<int:position>
 
 Eliminará una tarea pendiente en función de una posición determinada al final de la URL y devolverá la lista actualizada de tareas pendientes.
+
+
+Para arrancar la aplicación, ejecuta:
+pipenv run python src/app.py
